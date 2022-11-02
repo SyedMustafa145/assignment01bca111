@@ -1,5 +1,4 @@
-package main
-
+package assignment01bca
 import (
 	"crypto/sha256"
 	"fmt"
@@ -340,7 +339,7 @@ func changeBlock(chain *blockchain, x int) { // updating on basis of id value as
 	return
 }
 
-func main() {
+func Main() {
 
 	chain := new(blockchain)
 	var x = 50
